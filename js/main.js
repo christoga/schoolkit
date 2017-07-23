@@ -1,4 +1,8 @@
-// Initialize Firebase
+/*
+* © Andre Christoga 2017
+* Licensed under the BSD 2-Clause License
+*/
+
 var config = {
   apiKey: "AIzaSyA371lEjqN2SQOrfMob6hi0iEjly0n1HU4",
   authDomain: "andrechristoga-84efe.firebaseapp.com",
