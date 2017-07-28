@@ -11,6 +11,9 @@ I don't really know how to explain these features, I'll explain it as clear as p
 
 Homework Reminder is just a simple form submit system, with edit features.
 
+### Student Absent
+Student Absent is an absence system that I created because my school doesn't provided it, so I create my own.
+
 ### Pocket Money
 Pocket Money is just a simple submit system, so I know how much I have saved, rather than checking my savings and count it one by one.
 

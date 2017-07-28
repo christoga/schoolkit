@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Schoolkit</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="container">
+		<div class="form-group">
+			<label for="studentName">Nama Murid</label>
+			<select class="form-control" id="studentName">
+        <option value="ACHMAD_RIFKI">1. ACHMAD RIFKI</option>
+        <option value="ADI_PRATAMA">2. ADI PRATAMA</option>
+        <option value="ADINDA_CHANTIKA_LUBIS">3. ADINDA CHANTIKA LUBIS</option>
+        <option value="AHMAD_ROMADHANI">4. AHMAD ROMADHANI</option>
+        <option value="AMMAR_ABDULLAH_ALZAHID">5. AMMAR ABDULLAH AL-ZAHID</option>
+        <option value="ANDRE_CHRISTOGA_PRAMADITYA">6. ANDRE CHRISTOGA PRAMADITYA</option>
+        <option value="ARIEFIN_NUGROHO">7. ARIEFIN NUGROHO</option>
+        <option value="AVRYLIYANAH_DEWY">8. AVRYLIYANAH DEWY</option>
+        <option value="BAYU_AJI">9. BAYU AJI</option>
+        <option value="EDO_YUDHA_WASKITA">10. EDO YUDHA WASKITA</option>
+        <option value="FAATHIR_RAMADHAN_ALFIRAH">11. FAATHIR RAMADHAN ALFIRAH</option>
+        <option value="FADHLI_FADHILAH">12. FADHLI FADHILAH</option>
+        <option value="JULIDAR_FATIANI">13. JULIDAR FATIANI</option>
+        <option value="KRIS_DAMAYANTI">14. KRIS DAMAYANTI</option>
+        <option value="M_AKHSIN_PRASETYO">15. M AKHSIN PRASETYO</option>
+        <option value="MATHIUS">16. MATHIUS</option>
+        <option value="MOCHAMAD_RECHAN_ICHSANUL_KAMIL">17. MOCHAMAD RECHAN ICHSANUL KAMIL</option>
+        <option value="MUHAMAD_KAMAL_BACRUR_ROZIKIN">18. MUHAMAD KAMAL BACRUR ROZIKIN</option>
+        <option value="MUHAMAD_RACHMAT_HIDAYAT">19. MUHAMAD RACHMAT HIDAYAT</option>
+        <option value="MUHAMAD_RESMI_AJI">20. MUHAMAD RESMI AJI</option>
+        <option value="MUHAMMAD_ABID_MULYANA">21. MUHAMMAD ABID MULYANA</option>
+        <option value="MUHAMMAD_AKBAR_HABIBY_KHALID">22. MUHAMMAD AKBAR HABIBY KHALID</option>
+        <option value="MUHAMMAD_ELVAN">23. MUHAMMAD ELVAN</option>
+        <option value="MUHAMMAD_FADHIL_RABBANI">24. MUHAMMAD FADHIL RABBANI</option>
+        <option value="MUHAMMAD_RIVAN_AL_RASYID">25. MUHAMMAD RIVAN AL RASYID</option>
+        <option value="NAHDA_KHAIRUNNISA">26. NAHDA KHAIRUNNISA</option>
+        <option value="NAHLA_TARISAFITRI">27. NAHLA TARISAFITRI</option>
+        <option value="NUR_AENI">28. NUR AENI</option>
+        <option value="RAMADHANU">29. RAMADHANU</option>
+        <option value="REZA_SAFPUTRA">30. REZA SAFPUTRA</option>
+        <option value="RISKI_RANDANTI">31. RISKI RANDANTI</option>
+        <option value="RIZKI_RAMADHAN_IMAN_MUDA">32. RIZKI RAMADHAN IMAN MUDA</option>
+        <option value="RIZKI_SALSA_BILLA">33. RIZKI SALSA BILLA</option>
+        <option value="SYAHRUL_LESMANA">34. SYAHRUL LESMANA</option>
+        <option value="WINDI_AYU_WULANDARI">35. WINDI AYU WULANDARI</option>
+        <option value="YAZID_AMIRULLAH">36. YAZID AMIRULLAH</option>
+			</select>
+      <label for="studentStatus">Status Murid</label>
+      <select class="form-control" id="studentStatus">
+        <option value="hadir">Hadir</option>
+        <option value="sakit">Sakit</option>
+        <option value="none">Tanpa Keterangan</option>
+      </select>
+		</div>
+		<br><br>
+    <button class="btn btn-lg btn-primary btn-block" onclick="initializeAbsent()">Initialize Absent</button>
+    <button class="btn btn-lg btn-primary btn-block" onclick="completeAbsence()">Semuanya Hadir</button>
+    <button class="btn btn-lg btn-primary btn-block" onclick="editAbsent()">Submit</button>
+    </div> <!-- /container -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.1.3/firebase.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
