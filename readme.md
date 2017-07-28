@@ -5,7 +5,7 @@ Schoolkit is a web app with 3 features which is :
 * Notes
 
 ## Features
-I don't really know how to explain these features, I'll explain it as clear as possible, I'll recommend you to just try it out yourself.
+I don't really know how to explain these features, I'll explain it as clear as possible, but I'll recommend you to just try it out yourself.
 
 ### Homework Reminder
 
