@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -16,9 +17,9 @@
   <body>
 
     <div class="container">
-		<div class="form-group">
-			<label for="studentName">Nama Murid</label>
-			<select class="form-control" id="studentName">
+        <div class="form-group">
+        <label for="studentName">Nama Murid</label>
+        <select class="form-control" id="studentName">
         <option value="ACHMAD_RIFKI">1. ACHMAD RIFKI</option>
         <option value="ADI_PRATAMA">2. ADI PRATAMA</option>
         <option value="ADINDA_CHANTIKA_LUBIS">3. ADINDA CHANTIKA LUBIS</option>
@@ -55,22 +56,24 @@
         <option value="SYAHRUL_LESMANA">34. SYAHRUL LESMANA</option>
         <option value="WINDI_AYU_WULANDARI">35. WINDI AYU WULANDARI</option>
         <option value="YAZID_AMIRULLAH">36. YAZID AMIRULLAH</option>
-			</select>
-      <label for="studentStatus">Status Murid</label>
-      <select class="form-control" id="studentStatus">
-        <option value="hadir">Hadir</option>
-        <option value="sakit">Sakit</option>
-        <option value="none">Tanpa Keterangan</option>
-      </select>
-		</div>
-		<br><br>
-    <button class="btn btn-lg btn-primary btn-block" onclick="initializeAbsent()">Initialize Absent</button>
-    <button class="btn btn-lg btn-primary btn-block" onclick="completeAbsence()">Semuanya Hadir</button>
+            </select>
+            <br>
+          <label for="studentStatus">Status Murid</label>
+          <select class="form-control" id="studentStatus">
+            <option value="hadir">Hadir</option>
+            <option value="sakit">Sakit</option>
+            <option value="izin">Izin</option>
+            <option value="alpha">Tanpa Keterangan</option>
+          </select>
+        </div>
+        <br>
+    <center><div style="width:70%;">
     <button class="btn btn-lg btn-primary btn-block" onclick="editAbsent()">Submit</button>
+    <button class="btn btn-lg btn-primary btn-block" onclick="completeAbsence()">Semuanya Hadir</button></div></center>
     </div> <!-- /container -->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://www.gstatic.com/firebasejs/4.1.3/firebase.js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/absen.js"></script>
   </body>
 </html>
